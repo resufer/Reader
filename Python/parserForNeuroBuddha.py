@@ -18,3 +18,7 @@ while True:
         page += 1
     else:
         break
+
+file = open('./buddha.txt', 'w')
+file.write(book)
+file.close()
